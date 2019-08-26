@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:text="com.touchtype.swiftkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText" />
+
+    <Button
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button" />
+
+    <Button
+        android:id="@+id/btn_ikeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="com.emoji.ikeyboard.debug" />
+    <Button
+        android:id="@+id/btn_emoji_pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="com.emoji.coolkeyboard.debug" />
+
+    <Button
+        android:id="@+id/btn_gboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="com.google.android.inputmethod.latin" />
+
+    <Button
+        android:id="@+id/btn_swiftkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="com.touchtype.swiftkey" />
+
+    <Button
+        android:id="@+id/btn_touchpal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="com.cootek.smartinputv5" />
+
+    <Button
+        android:id="@+id/btn_g_hindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="com.google.android.apps.inputmethod.hindi" />
+
+    <Button
+        android:id="@+id/btn_kika_india"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="com.kikatech.keyboard.emoji.indian.debug" />
+    <Button
+        android:id="@+id/btn_facemoji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="com.simejikeyboard" />
+
+    <Button
+        android:id="@+id/btn_typany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="com.typany.ime" />
+    <Button
+        android:id="@+id/btn_kika_oem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="com.kikaoem.qisiemoji.inputmethod" />
+
+</LinearLayout>
